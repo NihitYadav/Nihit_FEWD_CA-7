@@ -54,7 +54,7 @@ const Form = (form) => {
                      id="email"/>
                 </div>
                 <div className='pehla'>
-                    <label htmlFor="password">pasword</label>
+                    <label htmlFor="password">password</label>
                     <input type="password" autoComplete='off' required
                       value={userRegistration.password} 
                       onChange = {handleInput}
