@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: linear-gradient(rgba(199, 205, 34, 0.3), rgba(141, 39, 174, 0.5)), url("../../images/library-img.jpg") center/cover no-repeat; */
+}
+
+.Form{
+    background-color: rgb(61, 193, 193);
+    /* background: rgb(61, 193, 193); */
+    background: linear-gradient(rgba(214, 220, 36, 0.9), rgba(163, 53, 200, 0.9));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    width: 50rem;
+    font-size: 2.5rem;
+    padding: 10%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register{
+    background-color: rgb(255, 87, 87);
+    padding: 10px;
+    margin: 10%;
+    font-size: large;
+    background: rgb(255, 87, 87);
+}
+
+input{
+    width: 20rem;
+    padding: 2%;
+    background: white;
+}
+
+label{
+    background: rgb(243, 240, 91);
+}
+
+.pehla{
+    /* width: 100%; */
+    /* background-color: rgb(214, 232, 94); */
+    background: rgb(243, 240, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;margin-bottom: 2rem;
+}
+
+#dusra{
+    margin-top: 1.5rem;
+}
+
+#tisra{
+    background-color: black;
+    padding: 0.2rem;
+    background: linear-gradient(rgba(199, 205, 34, 0.3), rgba(141, 39, 174, 0.5));
+}
